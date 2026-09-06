@@ -1,0 +1,11 @@
+node_modules/
+.next/
+*.tsbuildinfo
+.env*
+!.env.example
+docs/sources/source-*.txt
+docs/sources/discovery-*.json
+docs/sources/originals/
+docs/sources/*.txt
+docs/verification/*.html
+*.log

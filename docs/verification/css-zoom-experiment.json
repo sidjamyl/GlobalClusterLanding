@@ -1,0 +1,114 @@
+[
+  {
+    "route": "/",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/solutions/paie-rh",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/solutions/etats-financiers",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/solutions/gestion-pr",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/plateformes",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/documents",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/guides",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/contact",
+    "theme": "light",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/solutions/paie-rh",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/solutions/etats-financiers",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/solutions/gestion-pr",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/plateformes",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/documents",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/guides",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  },
+  {
+    "route": "/contact",
+    "theme": "dark",
+    "width": 1440,
+    "zoom": "200% CSS zoom",
+    "overflow": true
+  }
+]

@@ -1,0 +1,1064 @@
+{
+  "date": "2026-09-06T06:39:48.138Z",
+  "browser": "152.0.4191.62",
+  "origin": "http://127.0.0.1:3000",
+  "matrix": [
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "GlobalCluster — Solutions de gestion pour entrepreneurs et ETI"
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Paie et RH | GlobalCluster"
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "États financiers | GlobalCluster"
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Gestion PR | GlobalCluster"
+    },
+    {
+      "route": "/plateformes",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Accéder aux plateformes | GlobalCluster"
+    },
+    {
+      "route": "/documents",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Documents et supports | GlobalCluster"
+    },
+    {
+      "route": "/guides",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Guides vidéo | GlobalCluster"
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "title": "Contact | GlobalCluster"
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/plateformes",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/documents",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/guides",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/contact",
+      "theme": "light",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/plateformes",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/documents",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/guides",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    },
+    {
+      "route": "/contact",
+      "theme": "dark",
+      "width": 1440,
+      "zoom": "200% browser-zoom layout emulation (720 CSS px, DPR 2)",
+      "overflow": false,
+      "layoutWidth": 720,
+      "dpr": 2
+    }
+  ],
+  "interactions": [
+    "System theme, persisted explicit theme after reload, and live system changes pass",
+    "Mobile menu opens, closes on navigation and Escape restores focus",
+    "Keyboard disclosure exposes payroll capabilities",
+    "Video controls reveal on request; preload none",
+    "Email and normalized international telephone actions pass",
+    "Exact external platform destinations; no Gestion PR endpoint",
+    "Keyboard skip link reachable",
+    "Homepage query stays homepage; missing route returns 404",
+    "Core homepage content visible with JavaScript disabled",
+    "200% browser zoom layout emulation on eight routes in both themes; menu remains usable",
+    "Retired placeholder content returns 410; sensitive-image aliases redirect to safe capture",
+    "Video byte-range seeking succeeds; mobile navigation remains visible without JavaScript"
+  ],
+  "errors": [],
+  "axe": [
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/plateformes",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/documents",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/guides",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/plateformes",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/documents",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/guides",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/plateformes",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/documents",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/guides",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/solutions/paie-rh",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/solutions/etats-financiers",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/solutions/gestion-pr",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/plateformes",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/documents",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/guides",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "redirects": [
+    {
+      "id": "165",
+      "status": 308,
+      "location": "/contact?utm_source=legacy"
+    },
+    {
+      "id": "244",
+      "status": 308,
+      "location": "/solutions/paie-rh?utm_source=legacy"
+    },
+    {
+      "id": "344",
+      "status": 308,
+      "location": "/plateformes?utm_source=legacy"
+    },
+    {
+      "id": "416",
+      "status": 308,
+      "location": "/documents?utm_source=legacy"
+    },
+    {
+      "id": "450",
+      "status": 308,
+      "location": "/solutions/etats-financiers?utm_source=legacy"
+    },
+    {
+      "id": "489",
+      "status": 308,
+      "location": "/guides?utm_source=legacy"
+    }
+  ],
+  "media": [
+    {
+      "path": "/wp-content/uploads/2025/01/Global-Cluster-presentation-VF.pdf",
+      "status": 206,
+      "type": "application/pdf",
+      "range": "bytes 0-255/985376"
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/GCP-FINALE-EN-2.mp4",
+      "status": 206,
+      "type": "video/mp4",
+      "range": "bytes 0-255/89162110"
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Application-Mobile-Video.mp4",
+      "status": 206,
+      "type": "video/mp4",
+      "range": "bytes 0-255/40037726"
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Tester-ici-la-version-gratuite-sur-un-mois-1.pdf",
+      "status": 206,
+      "type": "application/pdf",
+      "range": "bytes 0-255/634127"
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Creation-des-bulletins-V1.0.mp4",
+      "status": 206,
+      "type": "video/mp4",
+      "range": "bytes 0-255/89081427"
+    }
+  ]
+}

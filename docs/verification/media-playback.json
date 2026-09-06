@@ -1,0 +1,26 @@
+[
+  {
+    "source": "http://127.0.0.1:3000/wp-content/uploads/2025/02/GCP-FINALE-EN-2.mp4",
+    "duration": 77.416667,
+    "time": 0.013663,
+    "readyState": 4,
+    "error": null
+  },
+  {
+    "source": "http://127.0.0.1:3000/wp-content/uploads/2025/04/Application-Mobile-Video.mp4",
+    "duration": 81.641361,
+    "time": 0.015686,
+    "readyState": 4,
+    "error": null
+  },
+  {
+    "source": "http://127.0.0.1:3000/wp-content/uploads/2025/04/Creation-des-bulletins-V1.0.mp4",
+    "duration": 278.8,
+    "time": 0.01975,
+    "readyState": 4,
+    "error": null
+  },
+  {
+    "reducedMotion": "Decorative cursor animation disabled; content remains visible"
+  }
+]

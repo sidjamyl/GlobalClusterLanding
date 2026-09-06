@@ -1,0 +1,74 @@
+[
+  {
+    "name": "light text",
+    "foreground": "#242725",
+    "background": "#fafaf8",
+    "ratio": 14.44
+  },
+  {
+    "name": "light muted",
+    "foreground": "#60635f",
+    "background": "#fafaf8",
+    "ratio": 5.83
+  },
+  {
+    "name": "light button",
+    "foreground": "#ffffff",
+    "background": "#b73d24",
+    "ratio": 5.67
+  },
+  {
+    "name": "light primary text",
+    "foreground": "#b73d24",
+    "background": "#fafaf8",
+    "ratio": 5.42
+  },
+  {
+    "name": "light muted surface",
+    "foreground": "#60635f",
+    "background": "#f0f0ed",
+    "ratio": 5.34
+  },
+  {
+    "name": "dark text",
+    "foreground": "#f2f3ed",
+    "background": "#191c1a",
+    "ratio": 15.4
+  },
+  {
+    "name": "dark muted",
+    "foreground": "#b1b9b0",
+    "background": "#191c1a",
+    "ratio": 8.54
+  },
+  {
+    "name": "dark button",
+    "foreground": "#241b16",
+    "background": "#ff9975",
+    "ratio": 8.1
+  },
+  {
+    "name": "dark primary text",
+    "foreground": "#ff9975",
+    "background": "#191c1a",
+    "ratio": 8.23
+  },
+  {
+    "name": "dark muted surface",
+    "foreground": "#b1b9b0",
+    "background": "#222623",
+    "ratio": 7.62
+  },
+  {
+    "name": "light secondary boundary",
+    "foreground": "#60635f",
+    "background": "#fafaf8",
+    "ratio": 5.83
+  },
+  {
+    "name": "dark secondary boundary",
+    "foreground": "#b1b9b0",
+    "background": "#191c1a",
+    "ratio": 8.54
+  }
+]

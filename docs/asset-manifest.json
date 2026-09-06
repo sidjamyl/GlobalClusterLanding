@@ -1,0 +1,169 @@
+{
+  "generated": "2026-09-06T06:55:45.235Z",
+  "assets": [
+    {
+      "path": "public/assets/finance.webp",
+      "bytes": 57702,
+      "sha256": "4d3e593a62b3e3c06d2a45acf5bf769e5bb1113578a9c194e4b1c8becf97627f",
+      "source": "Indicateurs-EF-1.png, WebP derivative"
+    },
+    {
+      "path": "public/assets/payroll.webp",
+      "bytes": 34436,
+      "sha256": "54ad91161910e87a53007d6a03430320bd4d00a4e2afa887b484689fd37f8b33",
+      "source": "Creation-salarie-1.png, WebP derivative"
+    },
+    {
+      "path": "public/fonts/manrope-latin-wght-normal.woff2",
+      "bytes": 24836,
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+      "source": "@fontsource-variable/manrope 5.3.0 (OFL)"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4383,
+      "sha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30",
+      "source": "@fontsource-variable/manrope 5.3.0 (OFL)"
+    },
+    {
+      "path": "public/wp-content/uploads/2022/10/laptop-desk-computer-writing-work-apple-722807-pxhere-com-1.jpg",
+      "bytes": 49709,
+      "sha256": "8ea43570d86d32913ab1948177f929472884b8fc9d2acf3fbfeb47564f8f7c70",
+      "source": "https://globalcluster.net/wp-content/uploads/2022/10/laptop-desk-computer-writing-work-apple-722807-pxhere-com-1.jpg"
+    },
+    {
+      "path": "public/wp-content/uploads/2022/12/logo_globalcluster-150x150.png",
+      "bytes": 12276,
+      "sha256": "a0cd527ba38f84cbc1973832b6763876361fe66aa53550ff9205e76e3ad35f20",
+      "source": "https://globalcluster.net/wp-content/uploads/2022/12/logo_globalcluster-150x150.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2022/12/logo_globalcluster.png",
+      "bytes": 11693,
+      "sha256": "d6535dfb67efa661c7fea67d1a04fc6eaea173a92bc5fa36b0108b2f0c407831",
+      "source": "https://globalcluster.net/wp-content/uploads/2022/12/logo_globalcluster.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2023/09/pexels-fauxels-3183153.jpg",
+      "bytes": 306912,
+      "sha256": "5a3a01d781a5746ce26a912c94ceb3999148092d2748e8b3682d91501bea2e33",
+      "source": "https://globalcluster.net/wp-content/uploads/2023/09/pexels-fauxels-3183153.jpg"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/account_balance_24dp_8B1A10_FILL0_wght400_GRAD0_opsz24.png",
+      "bytes": 991,
+      "sha256": "2a26ec8d7de1cb0c9b09f9753d90297ed30e46ae88b90093cb0e56a4ccb7447a",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/account_balance_24dp_8B1A10_FILL0_wght400_GRAD0_opsz24.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/Creation-salarie-1.png",
+      "bytes": 61682,
+      "sha256": "a2bf2946c0f30d152dfc9d273fb68aaf508f741f6e18d27d7e0d17030fc15ce5",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/Creation-salarie-1.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/Global-Cluster-presentation-VF.pdf",
+      "bytes": 985376,
+      "sha256": "fbf1e675b261915b87ebc08f74135375efbb92178bc3989b28249be8961afb5f",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/Global-Cluster-presentation-VF.pdf"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/Image-entree-payroll-2.png",
+      "bytes": 1688012,
+      "sha256": "b8779bf925162039dcaf055f6a4e755b9c0b99ac56ea6fdb1be2a37135515a67",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/Image-entree-payroll-2.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/Image-entree-payroll.png",
+      "bytes": 1856454,
+      "sha256": "d7da318437ca7c9d9287cdf5ed762699dffe5e8d5c1301bebce79d8f35252edd",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/Image-entree-payroll.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/order_play_24dp_8B1A10_FILL0_wght400_GRAD0_opsz24.png",
+      "bytes": 1573,
+      "sha256": "9ef3d22af44ccd096cc6714a108b77177f26a0ed266e339527f92e050bf761bd",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/order_play_24dp_8B1A10_FILL0_wght400_GRAD0_opsz24.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/01/precision_manufacturing_24dp_8B1A10_FILL0_wght400_GRAD0_opsz24.png",
+      "bytes": 1827,
+      "sha256": "303e935f110f4eece0a085293034db139cc74dbf0479b0b718a8cef29ce4a2d4",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/01/precision_manufacturing_24dp_8B1A10_FILL0_wght400_GRAD0_opsz24.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/02/EF-bilan-liasse-fiscale-1.png",
+      "bytes": 81186,
+      "sha256": "db19753af3a3eb779695bcacbbb43c8fc1cadf3cb7d179f194789a233a41ecd6",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/02/EF-bilan-liasse-fiscale-1.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/02/EF-bilan-liasse-fiscale-9.png",
+      "bytes": 94629,
+      "sha256": "29b99a55c5a45d2cc6ad9fbdf1831133ca74397ed4672c38edfc9d8016d4b47d",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/02/EF-bilan-liasse-fiscale-9.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/02/EF-liasse-fiscale.png",
+      "bytes": 75659,
+      "sha256": "a10f2f2ede84fac06724d43861de7b5cdff347c377b4e06bd9c2dd8a239de615",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/02/EF-liasse-fiscale.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/02/GCP-FINALE-EN-2.mp4",
+      "bytes": 89162110,
+      "sha256": "c2d12926208903a5d738f6a92b9f385b6bc1bd838379469d74f15403295a515b",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/02/GCP-FINALE-EN-2.mp4"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/02/Indicateurs-EF-1.png",
+      "bytes": 95127,
+      "sha256": "de5605140e387c85a87bcf8dce5e642b205248932b2b52628dc455d14facb75f",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/02/Indicateurs-EF-1.png"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/04/Application-Mobile-Video.mp4",
+      "bytes": 40037726,
+      "sha256": "335d2656b5f0454c04cda9d6b64c2abf3feb1106c93e0f2a1afb428991afcb7f",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/04/Application-Mobile-Video.mp4"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/04/Creation-des-bulletins-V1.0.mp4",
+      "bytes": 89081427,
+      "sha256": "5e094661b72b57c08a7218f5df50c124c71cb0b2df4b8651f2eec5a87e191145",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/04/Creation-des-bulletins-V1.0.mp4"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/04/Image-Presentation-1-1-1024x522.jpg",
+      "bytes": 56299,
+      "sha256": "552933b1bfa6717f3fc8b8c927705587635cff975a3229bb4dbb9e8c28fc5a14",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/04/Image-Presentation-1-1-1024x522.jpg"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/04/Paie-en-4-etapes-1-1-1024x576.jpg",
+      "bytes": 25444,
+      "sha256": "1a0e3a0d9ab30f693d1a01a20ab821d02c4a029ba703ae2ca0e7e46916d0bd1c",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/04/Paie-en-4-etapes-1-1-1024x576.jpg"
+    },
+    {
+      "path": "public/wp-content/uploads/2025/04/Tester-ici-la-version-gratuite-sur-un-mois-1.pdf",
+      "bytes": 634127,
+      "sha256": "89692a4c7501f80717b66de45ef6f3eaa515814ea77169884ad6df703cdb8073",
+      "source": "https://globalcluster.net/wp-content/uploads/2025/04/Tester-ici-la-version-gratuite-sur-un-mois-1.pdf"
+    }
+  ],
+  "privacyReplacements": [
+    {
+      "source": "/wp-content/uploads/2025/01/fiche-salarie-V2.png",
+      "destination": "/assets/payroll.webp",
+      "status": 308,
+      "originals": "docs/sources/originals/ (not served)"
+    },
+    {
+      "source": "/wp-content/uploads/2025/01/liste-des-salaries-1.png",
+      "destination": "/assets/payroll.webp",
+      "status": 308,
+      "originals": "docs/sources/originals/ (not served)"
+    }
+  ]
+}
