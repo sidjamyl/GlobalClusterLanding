@@ -37,13 +37,13 @@ try {
   await page.goto("http://127.0.0.1:3000");
   assert.equal(
     await page
-      .locator(".cursor-one")
+      .locator('section[aria-labelledby="home-hero-title"] article').first()
       .evaluate((e) => getComputedStyle(e).animationName),
     "none",
   );
   results.push({
     reducedMotion:
-      "Decorative cursor animation disabled; content remains visible",
+      "Product preview entrance disabled",
   });
 } finally {
   await browser.close();

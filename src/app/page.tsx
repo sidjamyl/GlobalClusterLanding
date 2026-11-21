@@ -3,33 +3,21 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight, Check } from "lucide-react";
 import {
-  Action,
   ContactCTA,
-  ProductVisual,
   ResourceList,
   SolutionIcon,
 } from "@/components/site";
+import { HomeHero } from "@/components/home-hero";
 import { resources, solutions } from "@/lib/content";
-export const metadata: Metadata = { alternates: { canonical: "/" } };
+export const metadata: Metadata = {
+  title: { absolute: "Global Cluster — Tout votre environnement métier, au même endroit" },
+  description: "Retrouvez vos applications de gestion pour chaque société dans Global Cluster. Demandez une démo.",
+  alternates: { canonical: "/" },
+};
 export default function Home() {
   return (
     <>
-      <section className="hero container">
-        <h1>
-          Solutions de gestion pour <span>entrepreneurs et ETI</span>
-        </h1>
-        <p>
-          Nous investissons nos ressources dans la qualité de nos produits et
-          nous veillons à leur accessibilité pour tous.
-        </p>
-        <div className="actions">
-          <Action href="#solutions">Découvrir les solutions</Action>
-          <Action href="/plateformes" secondary>
-            Accéder aux plateformes
-          </Action>
-        </div>
-        <ProductVisual solution={solutions[0]} hero />
-      </section>
+      <HomeHero />
       <section id="solutions" className="container section solutions-section">
         <div className="section-heading">
           <h2>

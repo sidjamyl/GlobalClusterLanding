@@ -254,8 +254,8 @@ const noJS = await browser.newContext({
 const noPage = await noJS.newPage();
 await noPage.goto(origin);
 assert.equal(
-  await noPage.locator("h1").innerText(),
-  "Solutions de gestion pour entrepreneurs et ETI",
+  (await noPage.locator("h1").innerText()).replace(/\s+/g, " ").trim(),
+  "Tout votre environnement métier, au même endroit.",
 );
 report.interactions.push(
   "Core homepage content visible with JavaScript disabled",
