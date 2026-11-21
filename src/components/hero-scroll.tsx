@@ -14,7 +14,7 @@ export function HeroScroll({ children }: { children: ReactNode }) {
     const rail = scene.querySelector("figure")!;
     const panel = stage.querySelector<HTMLElement>(`.${styles.invoice}`)!;
     const pause = stage.querySelector("input")!;
-    const motion = matchMedia("(prefers-reduced-motion: reduce)");
+    const motion = matchMedia("(prefers-reduced-motion: reduce), (max-width: 900px), (pointer: coarse)");
     let frame = 0;
     let enabled = false;
     function paint() {

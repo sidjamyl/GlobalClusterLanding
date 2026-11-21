@@ -45,7 +45,7 @@ try {
       behavior: "instant",
     });
   });
-  const invoice = page.getByRole("region", { name: /vérification d’une facture/ });
+  const invoice = page.getByRole("region", { name: /Aperçu de GC Connect/ });
   await invoice.waitFor();
   assert.ok(await invoice.evaluate((el) => {
     const rect = el.getBoundingClientRect();
@@ -60,6 +60,13 @@ try {
       .evaluate((e) => getComputedStyle(e).animationName),
     "none",
   );
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.emulateMedia({ reducedMotion: "no-preference" });
+  const hero = page.locator('section[aria-labelledby="home-hero-title"]');
+  assert.equal(await page.locator("[data-scroll]").count(), 0);
+  assert.equal(await hero.evaluate(el => el.getAnimations({ subtree: true }).length), 0);
+  await hero.getByRole("combobox").selectOption("assets");
+  assert.ok(await hero.getByRole("img", { name: "Suivi des immobilisations" }).isVisible());
   results.push({
     reducedMotion:
       "Product preview entrance disabled",
