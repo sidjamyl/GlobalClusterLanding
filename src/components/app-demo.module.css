@@ -168,3 +168,28 @@
 @keyframes stage-active {
   45% { background: var(--accent-soft); border-color: #efb375; }
 }
+
+.demo[data-featured] { background: #f4f8f9; }
+
+.demo[data-featured] .screen {
+  gap: clamp(10px, 1.6vw, 20px);
+  padding: clamp(17px, 2.4vw, 34px);
+  font-size: clamp(.75rem, 1vw, .94rem);
+}
+
+.demo[data-featured] .screenHeader strong { font-size: clamp(1.25rem, 2.3vw, 1.95rem); letter-spacing: -.035em; }
+.demo[data-featured] .metrics { gap: .8em; }
+.demo[data-featured] .metrics > div { padding: 1em; }
+.demo[data-featured] .metrics dd { font-size: clamp(1rem, 1.92vw, 1.7rem); white-space: nowrap; }
+.demo[data-featured] .metrics > div:first-child { background: #e9f6f4; border-color: #cfe7e4; }
+.demo[data-featured] .split { grid-template-columns: 1.1fr 1fr; grid-auto-flow: row; gap: .8em; }
+.demo[data-featured] .panel { padding: 1em; }
+.demo[data-featured] :is(.chart, .trend) { height: clamp(100px, 21svh, 184px); margin-top: .9em; }
+.demo[data-featured] .chart span {
+  animation: none;
+  transform: scaleY(clamp(.025, calc(var(--feature-bars, 1) * 1.45 - var(--order) * .04), 1));
+  background: linear-gradient(#429ca5, #1c7985);
+}
+.demo[data-featured] .trend path { animation: none; }
+.demo[data-featured] .trend path:first-child { opacity: var(--feature-line, 1); }
+.demo[data-featured] .line { stroke-dashoffset: calc(1 - var(--feature-line, 1)); }

@@ -1,4 +1,5 @@
-import { Check, FileText, Pause, Play, ScanText } from "lucide-react";
+import { LayoutDashboard, Pause, Play, UsersRound, Wallet } from "lucide-react";
+import { AppDemo } from "./app-demo";
 import { AppPreviews } from "./app-previews";
 import { Action } from "@/components/site";
 import { company } from "@/lib/content";
@@ -33,57 +34,28 @@ export function HomeHero() {
 
         <AppPreviews />
       </div>
-    <section className={styles.invoice} aria-label="Aperçu de GC Connect" data-invoice-state="approved">
-      <div className={styles.workspace}>
-        <div className={styles.windowFrame} aria-hidden="true" />
-        <header className={styles.windowHeader}>
-          <strong>GC Connect</strong><span>Données fictives</span>
-        </header>
-        <div className={styles.docks} aria-hidden="true">
-          <div data-dock="suite" />
-          <div data-dock="assets" />
-          <div data-dock="tax" />
-          <div data-dock="payroll" />
-        </div>
-        <div className={styles.invoiceBody}>
-          <aside className={styles.invoiceNav} aria-label="Rubrique affichée">
-            <span>Espace comptabilité</span>
-            <strong><FileText aria-hidden="true" /> Documents reçus</strong>
-          </aside>
-          <div className={styles.invoiceContent}>
-            <div className={styles.invoiceHeading}>
-              <h2>Documents reçus</h2>
-              <span className={styles.total}>
-                <strong><span data-before-approval>36</span><span data-after-approval>37</span></strong> approuvées
-              </span>
-            </div>
-            <ol className={styles.steps} aria-label="Étapes de la facture">
-              <li data-step="received">Réception</li>
-              <li data-step="extracted">Extraction</li>
-              <li data-step="approved">Approbation</li>
-            </ol>
-            <div className={styles.document}>
-              <div className={styles.documentRow}>
-                <FileText aria-hidden="true" />
-                <div><strong>Facture fournisseur</strong><span>FAC-024.pdf</span></div>
-                <span className={styles.invoiceStatus} data-status="received">Reçue</span>
-                <span className={styles.invoiceStatus} data-status="extracted">À approuver</span>
-                <span className={styles.invoiceStatus} data-status="approved"><Check aria-hidden="true" /> Approuvée</span>
-              </div>
-              <div className={styles.extraction}>
-                <div>
-                  <strong><ScanText aria-hidden="true" /> Données extraites</strong>
-                  <dl>
-                    <div><dt>Fournisseur</dt><dd>Atelier Atlas</dd></div>
-                    <div><dt>Montant TTC</dt><dd>84 500 DA</dd></div>
-                  </dl>
-                </div>
-              </div>
-            </div>
+      <section className={styles.dashboard} aria-label="Aperçu du tableau de bord GC Suite">
+        <div className={styles.workspace}>
+          <div className={styles.windowFrame} aria-hidden="true" />
+          <header className={styles.windowHeader}>
+            <strong>GC Suite</strong><span>Exercice 2026</span>
+          </header>
+          <div className={styles.docks} aria-hidden="true">
+            <div data-dock="tax" />
+            <div data-dock="assets" />
+            <div data-dock="connect" />
+            <div data-dock="payroll" />
+          </div>
+          <div className={styles.dashboardBody}>
+            <aside className={styles.dashboardNav} aria-label="Rubriques GC Suite">
+              <strong><LayoutDashboard aria-hidden="true" /> Vue d’ensemble</strong>
+              <span><UsersRound aria-hidden="true" /> Créances clients</span>
+              <span><Wallet aria-hidden="true" /> Trésorerie</span>
+            </aside>
+            <AppDemo app="suite" featured />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </section></HeroScroll>
   );
 }

@@ -36,32 +36,23 @@ try {
   await page.goto("http://127.0.0.1:3000");
   const track = page.locator("[data-scroll]");
   await track.waitFor();
-  const scrollHeroTo = (progress) => track.evaluate((el, progress) => {
-    const stage = el.firstElementChild;
-    const start = Math.min(0, innerHeight - stage.offsetHeight);
-    window.scrollTo({
-      top: scrollY + el.getBoundingClientRect().top - start
-        + (el.offsetHeight - stage.offsetHeight) * progress,
-      behavior: "instant",
-    });
-  }, progress);
-  await scrollHeroTo(.60);
-  await page.waitForFunction(() => [...document.querySelectorAll("[data-dock]")].every((dock) => {
-    const slot = dock.getBoundingClientRect();
-    const preview = document.querySelector(`[data-preview="${dock.dataset.dock}"]`);
-    const card = preview.getBoundingClientRect();
-    return Math.abs(slot.left - card.left) < 2 && Math.abs(slot.top + slot.height / 2 - card.top - card.height / 2) < 2
-      && card.width <= slot.width + 2 && card.height <= slot.height + 2
-      && Math.abs(card.width / card.height - preview.offsetWidth / preview.offsetHeight) < .02;
-  }));
-  await scrollHeroTo(.93);
-  const invoice = page.getByRole("region", { name: /Aperçu de GC Connect/ });
-  await invoice.getByText("Approuvée", { exact: true }).waitFor();
-  assert.ok(await invoice.getByText("37", { exact: true }).isVisible());
-  await scrollHeroTo(.81);
-  await invoice.getByText("À approuver", { exact: true }).waitFor();
-  assert.ok(await invoice.getByText("Atelier Atlas", { exact: true }).isVisible());
-  assert.ok(await invoice.getByText("36", { exact: true }).isVisible());
+  await track.evaluate((el) => {
+    window.scrollTo({ top: scrollY + el.getBoundingClientRect().top + 40, behavior: "instant" });
+  });
+  const triggerY = await page.evaluate(() => scrollY);
+  const dashboard = page.getByRole("region", { name: "Aperçu du tableau de bord GC Suite" });
+  await dashboard.waitFor();
+  await page.waitForFunction(() => {
+    const value = document.querySelector('[data-count="4800000"]').textContent.replace(/\D/g, "");
+    return Number(value) > 0 && Number(value) < 4800000;
+  });
+  await page.waitForFunction(() =>
+    document.querySelector('[data-count="4800000"]').textContent.replace(/\D/g, "") === "4800000"
+    && Number(document.querySelector("[data-folding]").style.getPropertyValue("--feature-line")) === 1);
+  assert.equal(await page.evaluate(() => scrollY), triggerY);
+  assert.ok(await dashboard.getByText("Ventes par mois").isVisible());
+  await page.evaluate(() => window.scrollTo({ top: 0, behavior: "instant" }));
+  await page.locator("[data-folding]").waitFor({ state: "detached" });
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("http://127.0.0.1:3000");
   assert.equal(
@@ -75,10 +66,9 @@ try {
   const hero = page.locator('section[aria-labelledby="home-hero-title"]');
   assert.equal(await page.locator("[data-scroll]").count(), 0);
   assert.equal(await hero.evaluate(el => el.getAnimations({ subtree: true }).length), 0);
-  await hero.getByRole("combobox").selectOption("assets");
-  const assets = hero.locator('article[data-selected="true"] [data-app-demo="assets"]');
-  assert.ok(await assets.getByText("Complétude des immobilisations").isVisible());
-  assert.ok(await assets.getByText("88%", { exact: true }).isVisible());
+  assert.equal(await hero.getByRole("combobox").count(), 0);
+  assert.ok(await hero.locator('[data-preview="suite"]').getByText("Ventes par mois").isVisible());
+  assert.ok(await hero.locator('[data-preview="connect"]').getByText("Bienvenue sur GC Connect").isVisible());
   results.push({
     reducedMotion:
       "Product preview entrance disabled",

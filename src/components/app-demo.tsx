@@ -4,6 +4,11 @@ import styles from "./app-demo.module.css";
 
 const sales = [52, 65, 58, 76, 69, 88, 82, 72, 90, 85, 95, 100];
 const months = ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
+const suiteMetrics = [
+  ["Ventes", "4,8 M DA", 4_800_000],
+  ["Créances clients", "840 k DA", 840_000],
+  ["Trésorerie", "1,6 M DA", 1_600_000],
+] as const;
 const families = [
   { name: "Matériel informatique", count: 42 },
   { name: "Mobilier", count: 36 },
@@ -32,10 +37,22 @@ function Metrics({ items }: { items: readonly (readonly [string, string])[] }) {
   );
 }
 
-function Suite() {
+function Suite({ featured }: { featured?: boolean }) {
   return (
     <>
-      <Metrics items={[["Ventes", "4,8 M DA"], ["Créances clients", "840 k DA"], ["Trésorerie", "1,6 M DA"]]} />
+      {featured ? (
+        <dl className={styles.metrics}>
+          {suiteMetrics.map(([label, value, amount]) => (
+            <div key={label}>
+              <dt>{label}</dt>
+              <dd>
+                <span className="sr-only">{value}</span>
+                <span aria-hidden="true" data-count={amount}>{value}</span>
+              </dd>
+            </div>
+          ))}
+        </dl>
+      ) : <Metrics items={suiteMetrics.map(([label, value]) => [label, value])} />}
       <div className={styles.split}>
         <div className={styles.panel}>
           <strong>Ventes par mois</strong>
@@ -137,13 +154,13 @@ const screens = {
   connect: { title: "Accueil", content: Connect },
 };
 
-export function AppDemo({ app }: { app: keyof typeof screens }) {
+export function AppDemo({ app, featured }: { app: keyof typeof screens; featured?: boolean }) {
   const { title, content: Content } = screens[app];
   return (
-    <div className={styles.demo} data-app-demo={app}>
+    <div className={styles.demo} data-app-demo={app} data-featured={featured || undefined}>
       <div className={styles.screen}>
         <div className={styles.screenHeader}><strong>{title}</strong><span>Données fictives</span></div>
-        <Content />
+        <Content featured={featured} />
       </div>
     </div>
   );
