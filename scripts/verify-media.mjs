@@ -33,6 +33,25 @@ try {
     await video.evaluate((v) => v.pause());
     await item.locator("summary").click();
   }
+  await page.goto("http://127.0.0.1:3000");
+  const track = page.locator("[data-scroll]");
+  await track.waitFor();
+  await track.evaluate((el) => {
+    const stage = el.firstElementChild;
+    const start = Math.min(0, innerHeight - stage.offsetHeight);
+    window.scrollTo({
+      top: scrollY + el.getBoundingClientRect().top - start
+        + (el.offsetHeight - stage.offsetHeight) * 0.85,
+      behavior: "instant",
+    });
+  });
+  const invoice = page.getByRole("region", { name: /vérification d’une facture/ });
+  await invoice.waitFor();
+  assert.ok(await invoice.evaluate((el) => {
+    const rect = el.getBoundingClientRect();
+    return Number(getComputedStyle(el).opacity) > 0.95
+      && rect.top < innerHeight / 2 && rect.bottom > innerHeight / 2;
+  }));
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("http://127.0.0.1:3000");
   assert.equal(

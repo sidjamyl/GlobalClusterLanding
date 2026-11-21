@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Action } from "@/components/site";
 import { company } from "@/lib/content";
+import { HeroScroll } from "./hero-scroll";
 import styles from "./home-hero.module.css";
 
 const newsreader = localFont({
@@ -37,7 +38,7 @@ function Preview({ app, title, icon, className, children }: {
 
 export function HomeHero() {
   return (
-    <section className={styles.hero} aria-labelledby="home-hero-title">
+    <HeroScroll><section className={styles.hero} aria-labelledby="home-hero-title">
       <div className={styles.halos} aria-hidden="true">
         <span /><span /><span />
       </div>
@@ -102,5 +103,21 @@ export function HomeHero() {
         <p className={styles.caption}>Aperçus des applications · Données fictives</p>
       </div>
     </section>
+    <section className={styles.invoice} aria-label="Aperçu de la vérification d’une facture dans GC Connect">
+      <div className={styles.workspace}>
+        <header><strong>GC Connect</strong><span>Documents reçus</span></header>
+        <div className={styles.inspector}>
+          <div className={styles.sheet}>
+            <small>Société Atlas</small><h2>Facture</h2><p>FA–024 · 15 octobre</p>
+            <dl><div><dt>Prestation</dt><dd>Maintenance</dd></div><div><dt>Total TTC</dt><dd>119 000 DA</dd></div></dl>
+          </div>
+          <div className={styles.fields}>
+            <small>À vérifier</small><h3>Données extraites</h3>
+            <dl><div><dt>Fournisseur</dt><dd>Société Atlas</dd></div><div><dt>Référence</dt><dd>FA–024</dd></div><div><dt>Montant TTC</dt><dd>119 000 DA</dd></div></dl>
+          </div>
+        </div>
+      </div>
+      <p>Aperçu illustratif · Facture fictive</p>
+    </section></HeroScroll>
   );
 }
