@@ -1,3 +1,3 @@
 :HL["/_next/static/media/fedf4c9280b16369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/e198a133c62a3c33.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"solutions","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"etats-financiers","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"7Jlc8OxvF27Qho-wwDsA6"}
+:HL["/_next/static/css/380b2b2f1b6c2eef.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"solutions","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"etats-financiers","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"nvE_5-d3w9AVnGiKZKUjY"}
