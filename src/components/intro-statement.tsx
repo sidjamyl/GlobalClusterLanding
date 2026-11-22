@@ -13,12 +13,12 @@ export function IntroStatement() {
     if (!title || !("IntersectionObserver" in window)) return;
 
     const observer = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) return;
-      if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      if (!entry.isIntersecting) {
+        title.removeAttribute("data-revealed");
+      } else if (entry.intersectionRatio >= 0.35) {
         title.setAttribute("data-revealed", "");
       }
-      observer.disconnect();
-    }, { threshold: 0.35 });
+    }, { threshold: [0, 0.35] });
     observer.observe(title);
     return () => observer.disconnect();
   }, []);

@@ -21,7 +21,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .heading[data-revealed] span {
-    animation: focus .58s cubic-bezier(.23, 1, .32, 1) calc(var(--word-index) * 32ms) backwards;
+    animation: focus 1.05s cubic-bezier(.23, 1, .32, 1) calc(var(--word-index) * 58ms) backwards;
   }
 }
 
