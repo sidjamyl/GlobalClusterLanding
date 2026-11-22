@@ -8,7 +8,7 @@ import {
   SolutionIcon,
 } from "@/components/site";
 import { HomeHero } from "@/components/home-hero";
-import { SolutionsHeading } from "@/components/solutions-heading";
+import { IntroStatement } from "@/components/intro-statement";
 import { resources, solutions } from "@/lib/content";
 export const metadata: Metadata = {
   title: { absolute: "Global Cluster — Tout votre environnement métier, au même endroit" },
@@ -19,9 +19,14 @@ export default function Home() {
   return (
     <>
       <HomeHero />
+      <IntroStatement />
       <section id="solutions" className="container section solutions-section">
         <div className="section-heading">
-          <SolutionsHeading />
+          <h2>
+            À chaque métier,
+            <br />
+            sa solution.
+          </h2>
           <p>
             Paie, états financiers ou pièces de rechange : trouvez l’outil qui
             répond à votre activité.
