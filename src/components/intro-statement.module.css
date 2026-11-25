@@ -1,0 +1,30 @@
+.section {
+  display: grid;
+  place-items: center;
+  min-height: 72svh;
+  padding: clamp(64px, 10vw, 144px) 24px;
+  color: #f4f4f0;
+  background: radial-gradient(ellipse at 50% 35%, #242723, #171917 78%);
+}
+
+.heading {
+  max-width: 33ch;
+  margin: 0;
+  font-family: var(--font-manrope), sans-serif;
+  font-size: clamp(1.65rem, 4vw, 3.6rem);
+  font-weight: 720;
+  line-height: 1.14;
+  letter-spacing: -.045em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .heading[data-revealed] span {
+    animation: focus 1.05s cubic-bezier(.23, 1, .32, 1) calc(var(--word-index) * 58ms) backwards;
+  }
+}
+
+@keyframes focus {
+  from { filter: blur(7px); opacity: .18; }
+}

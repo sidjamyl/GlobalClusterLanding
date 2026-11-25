@@ -1,174 +1,52 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
-import { ArrowUpRight, Check } from "lucide-react";
-import {
-  ContactCTA,
-  ResourceList,
-  SolutionIcon,
-} from "@/components/site";
-import { HomeHero } from "@/components/home-hero";
-import { resources, solutions } from "@/lib/content";
+import { ArrowUpRight, Landmark, UsersRound, Warehouse } from "lucide-react";
+import { AssetGlobe } from "@/components/asset-globe";
+import { DocumentFlow, Staves } from "@/components/amber-art";
+import { DemoForm, LedgerStage, MotionSection } from "@/components/amber-motion";
+
 export const metadata: Metadata = {
-  title: { absolute: "Global Cluster — Tout votre environnement métier, au même endroit" },
-  description: "Retrouvez vos applications de gestion pour chaque société dans Global Cluster. Demandez une démo.",
-  alternates: { canonical: "/" },
+  title: {absolute:"Global Cluster — La gestion de vos sociétés"},
+  description:"Factures, immobilisations, paie et états financiers. Retrouvez les applications Global Cluster pour chaque société.",
+  alternates:{canonical:"/"}
 };
-export default function Home() {
-  return (
-    <>
-      <HomeHero />
-      <section id="solutions" className="container section solutions-section">
-        <div className="section-heading">
-          <h2>
-            À chaque métier,
-            <br />
-            sa solution.
-          </h2>
-          <p>
-            Paie, états financiers ou pièces de rechange : trouvez l’outil qui
-            répond à votre activité.
-          </p>
-        </div>
-        <div className="solution-overview">
-          {solutions.map((s) => (
-            <Link
-              href={"/solutions/" + s.slug}
-              key={s.slug}
-              className="solution-link"
-            >
-              <div className="solution-top">
-                <SolutionIcon slug={s.slug} />
-                <ArrowUpRight size={23} />
-              </div>
-              <h3>{s.name}</h3>
-              <p>{s.short}</p>
-              <span className="solution-audience">{s.audience}</span>
-              <span className="text-action">
-                Découvrir la solution <ArrowUpRight size={16} />
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
-      <section className="features-section">
-        <div className="container section">
-          <div className="section-heading">
-            <h2>
-              Le détail compte.
-              <br />
-              La vue d’ensemble aussi.
-            </h2>
-            <p>
-              Des fonctionnalités concrètes pour organiser vos dossiers et
-              suivre vos opérations.
-            </p>
-          </div>
-          <div className="feature-split">
-            <div className="feature-copy">
-              <span className="product-label">Paie et RH</span>
-              <h3>
-                Une paie structurée,
-                <br />
-                du début à la fin.
-              </h3>
-              <p>
-                Paramétrez vos dossiers, préparez vos variables et retrouvez
-                l’historique de vos bulletins dans un même environnement.
-              </p>
-              <ul className="check-list">
-                <li>
-                  <Check />
-                  Dossiers et droits utilisateurs paramétrables
-                </li>
-                <li>
-                  <Check />
-                  Saisie des variables avec Excel
-                </li>
-                <li>
-                  <Check />
-                  Calcul, validation et paiement de la paie
-                </li>
-              </ul>
-              <Link className="text-action" href="/solutions/paie-rh">
-                Explorer Paie et RH <ArrowUpRight size={17} />
-              </Link>
-            </div>
-            <div className="feature-image payroll-detail">
-              <Image
-                src="/assets/payroll.webp"
-                alt="Les trois options de création d’un salarié dans GlobalCluster."
-                width={1520}
-                height={771}
-                sizes="(max-width: 768px) 92vw, 620px"
-              />
-              <div className="image-caption">
-                Profils, fiches et création de salariés
-              </div>
-            </div>
-          </div>
-          <div className="feature-split reverse">
-            <div className="feature-copy">
-              <span className="product-label">États financiers</span>
-              <h3>
-                Vos exercices passés
-                <br />
-                éclairent votre reporting.
-              </h3>
-              <p>
-                Préparez vos états financiers à partir de vos données comptables
-                et conservez l’historique de vos exercices.
-              </p>
-              <ul className="check-list">
-                <li>
-                  <Check />
-                  Import des données Excel et TXT
-                </li>
-                <li>
-                  <Check />
-                  États financiers et liasse fiscale
-                </li>
-                <li>
-                  <Check />
-                  Reporting personnalisé, exports Excel et PDF
-                </li>
-              </ul>
-              <Link className="text-action" href="/solutions/etats-financiers">
-                Explorer les états financiers <ArrowUpRight size={17} />
-              </Link>
-            </div>
-            <div className="feature-image finance-detail">
-              <Image
-                src="/assets/finance.webp"
-                alt="Indicateurs de résultat et de bilan dans la solution États financiers."
-                width={1830}
-                height={615}
-                sizes="(max-width: 768px) 92vw, 620px"
-              />
-              <div className="image-caption">
-                Indicateurs de résultat et de bilan · Capture source
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="container section">
-        <div className="section-heading">
-          <h2>
-            Découvrez les outils.
-            <br />
-            Prenez vos repères.
-          </h2>
-          <Link className="text-action" href="/documents">
-            Toutes les ressources <ArrowUpRight size={17} />
-          </Link>
-        </div>
-        <ResourceList
-          items={[resources[0], resources[4], resources[2]]}
-          compact
-        />
-      </section>
-      <ContactCTA />
-    </>
-  );
+const gestures=[
+  ["Suivre","Ventes, créances et trésorerie. Retrouvez les chiffres de la société sur laquelle vous travaillez."],
+  ["Traiter","De la facture reçue à la pièce approuvée, gardez le fil des justificatifs fournisseurs."],
+  ["Clôturer","Contrôlez la balance comptable avant de préparer vos états financiers."]
+];
+const apps=[
+  ["GC Suite","Ventes, créances et trésorerie","/plateformes"],
+  ["GC Connect","Pièces et factures fournisseurs","/plateformes"],
+  ["GC Assets","Immobilisations et amortissements","/plateformes"],
+  ["GC Tax Reporting","Balance et états financiers","/solutions/etats-financiers"],
+  ["GC Payroll","Dossiers salariés et bulletins de paie","/solutions/paie-rh"],
+  ["Gestion PR","Pièces de rechange en atelier","/solutions/gestion-pr"]
+];
+
+export default function Home(){
+ return <div className="amber-home">
+  <section aria-labelledby="amber-title"><div className="sheet hero-copy">
+    <div><h1 id="amber-title">Vos sociétés.<br/><span>Une seule vue.</span></h1>
+    <p>De la facture au bilan, retrouvez vos comptes,<br className="desktop-break"/> vos équipes et vos actifs dans Global Cluster.</p></div><DemoForm/>
+  </div><LedgerStage/></section>
+  <MotionSection className="sheet gestures"><h2>Chaque société a ses comptes.<br/><span>Gardez le fil de chacun.</span></h2>
+    <div className="gesture-row">{gestures.map(([title,copy],i)=><article key={title}><Staves variant={i}/><h3>{title}</h3><p>{copy}</p></article>)}</div>
+  </MotionSection>
+  <MotionSection className="sheet features" id="applications">
+    <header><div><small>Applications</small><h2>Des pièces aux actifs,<br/><span>suivez chaque mouvement.</span></h2></div>
+    <p>Deux regards sur votre activité. L’un suit le chemin d’une facture, l’autre la répartition de vos immobilisations.</p></header>
+    <div className="diptych">
+    <article className="art-card copper"><DocumentFlow/><div><small>GC Connect</small><h3>De la facture reçue à la pièce approuvée.</h3><p>Réception, extraction, contrôle. Suivez chaque justificatif jusqu’à son approbation.</p></div></article>
+    <article className="art-card opal"><AssetGlobe/><div><small>GC Assets</small><h3>Votre parc, sous tous ses angles.</h3><p>Consultez la répartition de vos actifs et suivez leur amortissement.</p></div></article>
+    </div>
+    <div className="feature-notes">{[
+      {Icon:Landmark,title:"Préparez la clôture.",copy:"Contrôlez les soldes de la balance avant d’établir vos états financiers.",href:"/solutions/etats-financiers"},
+      {Icon:UsersRound,title:"Retrouvez chaque bulletin.",copy:"Passez du dossier salarié à ses variables de paie et à son historique.",href:"/solutions/paie-rh"},
+      {Icon:Warehouse,title:"Suivez les pièces en atelier.",copy:"Retrouvez les références et les mouvements de vos pièces de rechange.",href:"/solutions/gestion-pr"}
+    ].map(({Icon,title,copy,href})=><Link href={href} key={href}><Icon size={19}/><h3>{title}</h3><p>{copy}</p></Link>)}</div>
+  </MotionSection>
+  <section className="sheet app-index"><h2>Les applications<br/><span>de Global Cluster.</span></h2><div>{apps.map(([name,detail,href])=><Link key={name} href={href}><strong>{name}</strong><span>{detail}</span><ArrowUpRight size={19}/></Link>)}</div></section>
+  <section className="sheet final-demo"><h2>Parlons de <span>votre gestion.</span></h2><DemoForm/></section>
+ </div>
 }

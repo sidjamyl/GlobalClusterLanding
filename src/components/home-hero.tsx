@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Pause, Play } from "lucide-react";
+import { LayoutDashboard, Pause, Play, UsersRound, Wallet } from "lucide-react";
+import { AppDemo } from "./app-demo";
 import { AppPreviews } from "./app-previews";
 import { Action } from "@/components/site";
 import { company } from "@/lib/content";
@@ -34,12 +34,28 @@ export function HomeHero() {
 
         <AppPreviews />
       </div>
-    </section>
-    <section className={styles.invoice} aria-label="Aperçu de GC Connect">
-      <div className={styles.workspace}>
-        <header><strong>GC Connect</strong><span>Réception et traitement des pièces</span></header>
-        <Image unoptimized src="/assets/app-previews/connect.webp" alt="Écran GC Connect avec la réception, le traitement, l’approbation et la comptabilisation des pièces." width={1500} height={946} />
-      </div>
+      <section className={styles.dashboard} aria-label="Aperçu du tableau de bord GC Suite">
+        <div className={styles.workspace}>
+          <div className={styles.windowFrame} aria-hidden="true" />
+          <header className={styles.windowHeader}>
+            <strong>GC Suite</strong><span>Exercice 2026</span>
+          </header>
+          <div className={styles.docks} aria-hidden="true">
+            <div data-dock="tax" />
+            <div data-dock="assets" />
+            <div data-dock="connect" />
+            <div data-dock="payroll" />
+          </div>
+          <div className={styles.dashboardBody}>
+            <aside className={styles.dashboardNav} aria-label="Rubriques GC Suite">
+              <strong><LayoutDashboard aria-hidden="true" /> Vue d’ensemble</strong>
+              <span><UsersRound aria-hidden="true" /> Créances clients</span>
+              <span><Wallet aria-hidden="true" /> Trésorerie</span>
+            </aside>
+            <AppDemo app="suite" featured />
+          </div>
+        </div>
+      </section>
     </section></HeroScroll>
   );
 }

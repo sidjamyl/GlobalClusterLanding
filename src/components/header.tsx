@@ -91,6 +91,7 @@ export function Header() {
             height={82}
             priority
           />
+          <span>Global Cluster</span>
         </Link>
         <button
           ref={menuButton}
@@ -116,6 +117,7 @@ export function Header() {
               Solutions <ChevronDown size={15} />
             </summary>
             <div className="solutions-dropdown">
+              <Link href="/applications" onClick={closeMenus}><span>Explorer les applications</span><small>Démonstrations interactives</small></Link>
               {solutions.map((s) => (
                 <Link
                   key={s.slug}
@@ -133,14 +135,14 @@ export function Header() {
           </details>
           {navLink("/documents", "Documents")}
           {navLink("/guides", "Guides")}
-          {navLink("/contact", "Nous contacter")}
+          {navLink("/contact", "Contact")}
           <Link
             className="header-platform"
             href="/plateformes"
             aria-current={pathname === "/plateformes" ? "page" : undefined}
             onClick={closeMenus}
           >
-            Accès plateformes <ArrowUpRight size={16} />
+            Se connecter <ArrowUpRight size={14} />
           </Link>
         </nav>
         <div className="theme-control">

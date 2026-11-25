@@ -21,6 +21,11 @@ export default function Platforms() {
         className="container platform-list"
         aria-label="Applications GlobalCluster"
       >
+        <article className="platform-entry">
+          <div className="platform-icon"><SolutionIcon slug="etats-financiers" /></div>
+          <div><h2>Global Cluster</h2><p>Retrouvez les applications de votre société dans votre espace de gestion.</p><span className="external-note"><ExternalLink size={14}/> Application externe · globalcluster-dz.net</span></div>
+          <Action href="https://globalcluster-dz.net/GCS" external>Ouvrir mon espace</Action>
+        </article>
         {solutions
           .filter((s) => s.platform)
           .map((s) => (

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/site";
 import "./globals.css";
+import "./amber.css";
 const manrope = localFont({
   src: "../../public/fonts/manrope-latin-wght-normal.woff2",
   variable: "--font-manrope",
@@ -29,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" suppressHydrationWarning className={manrope.variable}>
+    <html data-scroll-behavior="smooth" lang="fr" suppressHydrationWarning className={manrope.variable}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <noscript>
