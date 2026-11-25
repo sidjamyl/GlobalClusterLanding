@@ -133,3 +133,62 @@ body,.site-header,.site-footer{background:var(--paper);color:var(--ink)}
   .demo-logo-strip ul { gap: clamp(8px, 2.4vw, 14px); }
   .demo-logo-strip img { width: clamp(42px, 13vw, 64px); }
 }
+
+.demo-logo-heading {
+  position: relative;
+  display: grid;
+  align-items: center;
+  min-height: 34px;
+  padding-inline: 68px;
+}
+.demo-logo-toggle {
+  position: absolute;
+  inset-inline-end: 0;
+  visibility: hidden;
+  padding: 6px 8px;
+  color: var(--soft);
+  font-size: 12px;
+  text-underline-offset: .22em;
+}
+.demo-logo-strip[data-motion-ready] .demo-logo-toggle { visibility: visible; }
+.demo-logo-toggle:hover { text-decoration: underline; }
+.demo-logo-strip ul { margin-top: 8px; }
+.demo-logo-strip li {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+  padding-block: 10px;
+}
+.demo-logo-strip img { grid-area: 1 / 1; }
+.demo-logo-strip img[data-logo-alternate] { visibility: hidden; }
+
+.accounting-scroll-story {
+  display: grid;
+  align-items: center;
+  overflow: clip;
+  min-height: clamp(320px, 68svh, 660px);
+  margin-block-start: clamp(76px, 10vw, 156px);
+  padding-block: 48px;
+  background: color-mix(in srgb, var(--primary) 9%, var(--paper));
+}
+.accounting-scroll-copy {
+  display: grid;
+  gap: clamp(24px, 4vw, 56px);
+}
+.amber-home .accounting-scroll-copy h2 {
+  font-size: clamp(27px, 6vw, 98px);
+  line-height: 1.04;
+}
+.amber-home .accounting-scroll-copy h2 span {
+  display: block;
+  color: var(--primary);
+}
+.amber-home .accounting-scroll-copy h2 span + span {
+  margin-inline-start: clamp(12px, 5.5vw, 96px);
+  color: var(--ink);
+}
+.amber-home .accounting-scroll-copy p {
+  max-width: 38ch;
+  margin-inline-start: clamp(12px, 5.5vw, 96px);
+}

@@ -1,24 +1,16 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Landmark, UsersRound, Warehouse } from "lucide-react";
 import { AssetGlobe } from "@/components/asset-globe";
 import { DocumentFlow, Staves } from "@/components/amber-art";
 import { DemoForm, LedgerStage, MotionSection } from "@/components/amber-motion";
+import { AccountingScrollStory, DemoLogoStrip } from "@/components/amber-scroll-motion";
 
 export const metadata: Metadata = {
   title: {absolute:"Global Cluster — La gestion de vos sociétés"},
   description:"Factures, immobilisations, paie et états financiers. Retrouvez les applications Global Cluster pour chaque société.",
   alternates:{canonical:"/"}
 };
-const demoLogos = [
-  { name: "IBM", slug: "ibm", height: 205 },
-  { name: "GitHub", slug: "github", height: 139 },
-  { name: "Slack", slug: "slack", height: 130 },
-  { name: "Notion", slug: "notion", height: 178 },
-  { name: "Stripe", slug: "stripe", height: 214 },
-];
-
 const gestures=[
   ["Suivre","Ventes, créances et trésorerie. Retrouvez les chiffres de la société sur laquelle vous travaillez."],
   ["Traiter","De la facture reçue à la pièce approuvée, gardez le fil des justificatifs fournisseurs."],
@@ -39,16 +31,7 @@ export default function Home(){
     <div><h1 id="amber-title">Vos sociétés.<br/><span>Une seule vue.</span></h1>
     <p>De la facture au bilan, retrouvez vos comptes,<br className="desktop-break"/> vos équipes et vos actifs dans Global Cluster.</p></div><DemoForm/>
   </div><LedgerStage/></section>
-  <section className="sheet demo-logo-strip" aria-labelledby="demo-logos-title">
-    <p id="demo-logos-title">Logos de démonstration</p>
-    <ul>
-      {demoLogos.map(({ name, slug, height }) => (
-        <li key={slug}>
-          <Image src={`/assets/demo-logos/${slug}.svg`} alt={name} width={512} height={height} unoptimized />
-        </li>
-      ))}
-    </ul>
-  </section>
+  <DemoLogoStrip />
   <MotionSection className="sheet gestures"><h2>Chaque société a ses comptes.<br/><span>Gardez le fil de chacun.</span></h2>
     <div className="gesture-row">{gestures.map(([title,copy],i)=><article key={title}><Staves variant={i}/><h3>{title}</h3><p>{copy}</p></article>)}</div>
   </MotionSection>
@@ -72,6 +55,7 @@ export default function Home(){
       {Icon:Warehouse,title:"Suivez les pièces en atelier.",copy:"Retrouvez les références et les mouvements de vos pièces de rechange.",href:"/solutions/gestion-pr"}
     ].map(({Icon,title,copy,href})=><Link href={href} key={href}><Icon size={19}/><h3>{title}</h3><p>{copy}</p></Link>)}</div>
   </MotionSection>
+  <AccountingScrollStory />
   <section className="sheet app-index"><h2>Les applications<br/><span>de Global Cluster.</span></h2><div>{apps.map(([name,detail,href])=><Link key={name} href={href}><strong>{name}</strong><span>{detail}</span><ArrowUpRight size={19}/></Link>)}</div></section>
   <section className="sheet final-demo"><h2>Parlons de <span>votre gestion.</span></h2><DemoForm/></section>
  </div>
