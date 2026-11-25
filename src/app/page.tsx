@@ -33,6 +33,13 @@ export default function Home(){
   <MotionSection className="sheet gestures"><h2>Chaque société a ses comptes.<br/><span>Gardez le fil de chacun.</span></h2>
     <div className="gesture-row">{gestures.map(([title,copy],i)=><article key={title}><Staves variant={i}/><h3>{title}</h3><p>{copy}</p></article>)}</div>
   </MotionSection>
+  <MotionSection className="focus-passage" id="de-la-piece-au-bilan">
+    <p>
+      <span>Une facture entre dans vos comptes.</span>{" "}
+      <span>Votre trésorerie se précise.</span>{" "}
+      <span>Le bilan prend forme.</span>
+    </p>
+  </MotionSection>
   <MotionSection className="sheet features" id="applications">
     <header><div><small>Applications</small><h2>Des pièces aux actifs,<br/><span>suivez chaque mouvement.</span></h2></div>
     <p>Deux regards sur votre activité. L’un suit le chemin d’une facture, l’autre la répartition de vos immobilisations.</p></header>
