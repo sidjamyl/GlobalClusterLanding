@@ -1,6 +1,174 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next"
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/wp-content/uploads/2025/01/fiche-salarie-V2.png",
+      "destination": "/assets/payroll.webp",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2025/01/liste-des-salaries-1.png",
+      "destination": "/assets/payroll.webp",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "244"
+        }
+      ],
+      "destination": "/solutions/paie-rh/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "450"
+        }
+      ],
+      "destination": "/solutions/etats-financiers/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "344"
+        }
+      ],
+      "destination": "/plateformes/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "416"
+        }
+      ],
+      "destination": "/documents/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "489"
+        }
+      ],
+      "destination": "/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "165"
+        }
+      ],
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "244"
+        }
+      ],
+      "destination": "/solutions/paie-rh/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "450"
+        }
+      ],
+      "destination": "/solutions/etats-financiers/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "344"
+        }
+      ],
+      "destination": "/plateformes/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "416"
+        }
+      ],
+      "destination": "/documents/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "489"
+        }
+      ],
+      "destination": "/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy(index.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "165"
+        }
+      ],
+      "destination": "/contact/",
+      "permanent": true
+    }
+  ]
 }
