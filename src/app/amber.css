@@ -99,3 +99,37 @@ body,.site-header,.site-footer{background:var(--paper);color:var(--ink)}
     72%, 100% { opacity: 1; filter: blur(0); }
   }
 }
+
+.demo-logo-strip {
+  padding-block: clamp(24px, 3.8vw, 58px) 0;
+  text-align: center;
+}
+.amber-home .demo-logo-strip p {
+  margin: 0;
+  color: var(--soft);
+  font-size: 12px;
+}
+.demo-logo-strip ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px clamp(18px, 5vw, 76px);
+  margin: 18px auto 0;
+  padding: 0;
+  list-style: none;
+}
+.demo-logo-strip img {
+  display: block;
+  width: clamp(60px, 7vw, 100px);
+  height: clamp(25px, 3vw, 40px);
+  object-fit: contain;
+  filter: grayscale(1);
+}
+:root[data-theme=dark] .demo-logo-strip img {
+  filter: grayscale(1) invert(1);
+}
+@media (max-width: 620px) {
+  .demo-logo-strip ul { gap: clamp(8px, 2.4vw, 14px); }
+  .demo-logo-strip img { width: clamp(42px, 13vw, 64px); }
+}
